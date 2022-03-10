@@ -1,0 +1,8 @@
+num=int(input('DIgite um numero'))
+cont=1
+mult=0
+while(cont<=num):
+    mult=mult*cont
+    print(cont)
+    cont=cont+1
+print(mult)
